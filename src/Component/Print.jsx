@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp } from "react-icons/Fa";
+import { FaWhatsapp } from "react-icons/fa";
 function Print() {
   return (
     <>

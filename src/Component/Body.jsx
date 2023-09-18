@@ -1,5 +1,5 @@
  import React from 'react'
- import { BsCartCheckFill, BsSearch } from "react-icons/Bs";
+ import { BsCartCheckFill, BsSearch } from "react-icons/bs ";
 
 
 function Body() {
