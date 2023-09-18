@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsCartCheckFill } from 'react-icons/Bs'
+// import { BsCartCheckFill, BsFillCartCheckFill } from 'react-icons/bs'
 import { FaSearch } from 'react-icons/fa'
 
 
@@ -79,7 +79,7 @@ function Body() {
             >
               Create Account
             </button>
-            <BsCartCheckFill />
+            {/* <BsFillCartCheckFillCartCheckFill /> */}
           </div>
         </nav>
         <div style={{ marginTop: "50px" }}>
