@@ -1,5 +1,6 @@
- import React from 'react'
- import { BsCartCheckFill,BsSearch} from 'react-icons/bs '
+import React from 'react'
+import { BsCartCheckFill } from 'react-icons/Bs'
+import { FaSearch } from 'react-icons/fa'
 
 
 function Body() {
@@ -117,7 +118,7 @@ function Body() {
               border: "none",
             }}
           />
-          <BsSearch
+          <FaSearch
             style={{
               position: "absolute",
               left: "500px",

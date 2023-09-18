@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/Ai";
 
 
 function Comment() {
