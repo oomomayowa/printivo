@@ -1,4 +1,5 @@
 import React from 'react'
+import image17 from `../assets/logos.png `
 
 function Logo() {
   return (
@@ -26,7 +27,7 @@ function Logo() {
         </h3>
         <br />
         <img
-          src="./src/assets/logos.png"
+          src={image17}
           alt=""
           style={{ width: "90%", paddingLeft: "2%" }}
         />

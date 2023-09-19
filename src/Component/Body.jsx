@@ -1,4 +1,5 @@
 import React from 'react'
+import image from `../assets/Card3_n9kqin (1).png`
 // import { BiSolidCartAdd } from 'react-icons/bi'
 // import { AiOutlineSearch } from 'react-icons/ai'
 
@@ -79,7 +80,7 @@ function Body() {
             >
               Create Account
             </button>
-            {/* <BiSolidCartAdd/> */}
+            <i class="fa-solid fa-cart-arrow-down"></i>
           </div>
         </nav>
         <div style={{ marginTop: "50px" }}>
@@ -118,6 +119,12 @@ function Body() {
               border: "none",
             }}
           />
+          <i class="fa-solid fa-magnifying-glass" style={{
+              position: "absolute",
+              left: "500px",
+              bottom: "20%",
+              width: "90px",
+            }}></i>
           {/* <AiOutlineSearch
             style={{
               position: "absolute",
@@ -141,7 +148,7 @@ function Body() {
             send mes...
           </button>
           <img
-            src="./src/assets/Card3_n9kqin (1).png"
+            src={image}
             alt=""
             style={{
               position: "absolute",

@@ -1,4 +1,5 @@
 import React from "react";
+import image from `../assets/flag.svg`
 // import { AiOutlineWhatsApp } from "react-icons/ai";
 function Print() {
   return (
@@ -54,6 +55,7 @@ function Print() {
             marginLeft: "10px",
           }}
         >
+          <i class="fa-brands fa-whatsapp" className="text-success fs-1 mx-5 "></i>
           {/* <AiOutlineWhatsApp className="text-success fs-1 mx-5 " /> */}
           <button
             style={{
@@ -69,7 +71,7 @@ function Print() {
             {" "}
             <span>
               <img
-                src="./src/assets/flag.svg"
+                src={image}
                 alt=""
                 style={{ width: "30%", paddingRight: "10px" }}
               />

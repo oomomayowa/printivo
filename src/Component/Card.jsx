@@ -1,4 +1,19 @@
 import React from 'react'
+import image from `../assets/1440201227_two-sided-business-cards-by-printivo (2).png`
+import image2 from `../assets/girl.png`
+import image3 from `../assets/1656003107_social-media--15 (1).png`
+import image4 from `../assets/1661456358_social-media--16.png`
+import image5 from `../assets/1439790190_postcard.jpg`
+import image6 from `../assets/banner1.png`
+import image7 from `../assets/1572259118_product-5-(1).png `
+import image8 from `../assets/1473167305_trifold-brochure-printing.png `
+import image9 from `../assets/namme.png `
+import image10 from `../assets/1485151940_White-tshirt (1).png `
+import image11 from `../assets/1572258123_product-3-(1).png `
+import image12 from `../assets/good.jpeg `
+import image13 from `../assets/evelop.png `
+import image14 from `../assets/tick.png `
+
 
 function Card() {
   return (
@@ -24,7 +39,7 @@ function Card() {
             style={{ marginRight: "2%", marginLeft: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1440201227_two-sided-business-cards-by-printivo (2).png"
+              src={image}
               className="card-img-top "
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -52,7 +67,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/girl.png"
+              src={image2}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -82,7 +97,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1656003107_social-media--15 (1).png"
+              src={image3}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -110,7 +125,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1661456358_social-media--16.png"
+              src={image4}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -142,7 +157,7 @@ function Card() {
             style={{ marginRight: "2%", marginLeft: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1439790190_postcard.jpg"
+              src={image5}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -172,7 +187,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1446183154_big rollup banner (1).png"
+              src={image6}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -200,7 +215,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1572259118_product-5-(1).png"
+              src={image7}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -230,7 +245,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1473167305_trifold-brochure-printing.png"
+              src={image8}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -262,7 +277,7 @@ function Card() {
             style={{ marginRight: "2%", marginLeft: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/namme.png"
+              src={image9}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -292,7 +307,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1485151940_White-tshirt (1).png"
+              src={image10}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -322,7 +337,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/1572258123_product-3-(1).png"
+              src={image11}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -350,7 +365,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/good.jpeg"
+              src={image12}
               className="card-img-top"
               alt="..."
               style={{ width: "100%", height: "55%" }}
@@ -397,7 +412,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/evelop.png"
+              src={image13}
               className="card-img-top"
               alt="..."
               style={{ width: "105%" }}
@@ -428,7 +443,7 @@ function Card() {
             style={{ marginRight: "2%", marginBottom: "2%" }}
           >
             <img
-              src="./src/assets/tick.png"
+              src={image14}
               className="card-img-top"
               alt="..."
               style={{ width: "105%", height: "100%" }}
