@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp } from "react-icons/fa";
+// import { AiOutlineWhatsApp } from "react-icons/ai";
 function Print() {
   return (
     <>
@@ -54,7 +54,7 @@ function Print() {
             marginLeft: "10px",
           }}
         >
-          <FaWhatsapp className="text-success fs-1 mx-5 " />
+          {/* <AiOutlineWhatsApp className="text-success fs-1 mx-5 " /> */}
           <button
             style={{
               backgroundColor: "transparent",

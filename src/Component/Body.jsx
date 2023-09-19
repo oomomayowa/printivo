@@ -1,6 +1,6 @@
 import React from 'react'
-// import { BsCartCheckFill, BsFillCartCheckFill } from 'react-icons/bs'
-import { FaSearch } from 'react-icons/fa'
+// import { BiSolidCartAdd } from 'react-icons/bi'
+// import { AiOutlineSearch } from 'react-icons/ai'
 
 
 function Body() {
@@ -79,7 +79,7 @@ function Body() {
             >
               Create Account
             </button>
-            {/* <BsFillCartCheckFillCartCheckFill /> */}
+            {/* <BiSolidCartAdd/> */}
           </div>
         </nav>
         <div style={{ marginTop: "50px" }}>
@@ -118,14 +118,14 @@ function Body() {
               border: "none",
             }}
           />
-          <FaSearch
+          {/* <AiOutlineSearch
             style={{
               position: "absolute",
               left: "500px",
               bottom: "20%",
               width: "90px",
             }}
-          />
+          /> */}
           <br />
           <button
             style={{

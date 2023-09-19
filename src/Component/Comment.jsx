@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillTwitterCircle } from "react-icons/ai";
+// import { AiFillTwitterCircle } from "react-icons/ai";
 
 
 function Comment() {
@@ -22,13 +22,14 @@ function Comment() {
         <div className="card h-100">
           <div className="card-body p-5">
             <h5 className="card-title" style={{ fontSize: "16px" }}>
-              <AiFillTwitterCircle
+              {/* <AiFillTwitterCircle
                 style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}
-              />{" "}
+              /> */}
+              {" "}
               Amina Ebele{" "}
               <span style={{ color: "blue" }}>@DeliciousAminae</span>
             </h5>
@@ -47,13 +48,13 @@ function Comment() {
           <div className="card-body p-5">
             <h5 className="card-title" style={{ fontSize: "16px" }}>
               {" "}
-              <AiFillTwitterCircle
+              {/* <AiFillTwitterCircle
                 style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}
-              />
+              /> */}
               Oluwatosin <span style={{ color: "blue" }}>@tosingirlfx</span>
             </h5>
             <br />
@@ -70,13 +71,13 @@ function Comment() {
           <div className="card-body p-5">
             <h5 className="card-title" style={{ fontSize: "16px" }}>
               {" "}
-              <AiFillTwitterCircle
+              {/* <AiFillTwitterCircle
                 style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}
-              />
+              /> */}
               Oluwatosin <span style={{ color: "blue" }}>@olgablark</span>
             </h5>
             <br />

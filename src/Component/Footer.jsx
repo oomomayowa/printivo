@@ -1,6 +1,6 @@
 import React from 'react'
-import { BsInstagram,BsTwitter } from "react-icons/Bs";
-import{FiFacebook,FiLinkedin}from "react-icons/fi"
+// import { BiLogoInstagram,BiLogoTwitter } from "react-icons/bi";
+// import{FiFacebook,FiLinkedin}from "react-icons/fi"
 
 
 function Footer() {
@@ -79,7 +79,7 @@ function Footer() {
           <div class="col">
             <ul style={{listStyleType:'none'}}>
               <h5 class="py-3 fs-10 fw-bold">Follow Us</h5>
-              <li class="py-2"><FiFacebook style={{fontSize:'25px',margin:'1%'}}/>  <BsTwitter style={{fontSize:'25px',margin:'1%'}}/>   <FiLinkedin style={{fontSize:'25px',margin:'1%'}}/>   <BsInstagram style={{fontSize:'25px',margin:'1%'}}/></li>
+              {/* <li class="py-2"><FiFacebook style={{fontSize:'25px',margin:'1%'}}/>  <BiLogoTwitter style={{fontSize:'25px',margin:'1%'}}/>   <FiLinkedin style={{fontSize:'25px',margin:'1%'}}/>   <BiLogoInstagram style={{fontSize:'25px',margin:'1%'}}/></li> */}
               <li class="py-2 fs-10 fw-bold">Accepted Payments</li>
               <li class="py-2"><img src="./src/assets/payment.png" alt="" width={200}/></li>
               <li class="py-2 fs-10 fw-bold">Delivery</li>
