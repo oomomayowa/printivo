@@ -1,14 +1,14 @@
 import React from 'react'
-import image from `../assets/tchu.svg`
-import image2 from `../assets/forb.svg`
-import image3 from `../assets/tech.png`
-import image4 from `../assets/bal.svg`
-import image5 from `../assets/cnn.svg`
-import image9 from`../assets/payment.png`
-import image8 from `../assets/ship.png`
+import image from '../assets/tchu.svg'
+import image2 from '../assets/forb.svg'
+import image3 from '../assets/tech.png'
+import image4 from '../assets/bal.svg'
+import image5 from '../assets/cnn.svg'
+import image9 from '../assets/payment.png'
+import image8 from '../assets/ship.png'
 
-// import { BiLogoInstagram,BiLogoTwitter } from "react-icons/bi";
-// import{FiFacebook,FiLinkedin}from "react-icons/fi"
+import { BiLogoInstagram,BiLogoTwitter } from "react-icons/bi";
+import{FiFacebook,FiLinkedin}from "react-icons/fi"
 
 
 function Footer() {
@@ -88,7 +88,7 @@ function Footer() {
             <ul style={{listStyleType:'none'}}>
               <h5 class="py-3 fs-10 fw-bold">Follow Us</h5>
               <i class="fa-brands fa-facebook" style={{fontSize:'25px',margin:'1%'}}></i><i class="fa-brands fa-twitter" style={{fontSize:'25px',margin:'1%'}}></i><i class="fa-brands fa-linkedin" style={{fontSize:'25px',margin:'1%'}}></i> <i class="fa-brands fa-instagram"style={{fontSize:'25px',margin:'1%'}}></i>
-              {/* <li class="py-2"><FiFacebook style={{fontSize:'25px',margin:'1%'}}/>  <BiLogoTwitter style={{fontSize:'25px',margin:'1%'}}/>   <FiLinkedin style={{fontSize:'25px',margin:'1%'}}/>   <BiLogoInstagram style={{fontSize:'25px',margin:'1%'}}/></li> */}
+              <li class="py-2"><FiFacebook style={{fontSize:'25px',margin:'1%'}}/>  <BiLogoTwitter style={{fontSize:'25px',margin:'1%'}}/>   <FiLinkedin style={{fontSize:'25px',margin:'1%'}}/>   <BiLogoInstagram style={{fontSize:'25px',margin:'1%'}}/></li>
               <li class="py-2 fs-10 fw-bold">Accepted Payments</li>
               <li class="py-2"><img src={image9} alt="" width={200}/></li>
               <li class="py-2 fs-10 fw-bold">Delivery</li>

@@ -1,6 +1,6 @@
 import React from "react";
-import image from `../assets/flag.svg`
-// import { AiOutlineWhatsApp } from "react-icons/ai";
+import image from '../assets/flag.svg'
+import { PiWhatsappLogoBold } from "react-icons/pi";
 function Print() {
   return (
     <>
@@ -55,8 +55,8 @@ function Print() {
             marginLeft: "10px",
           }}
         >
-          <i class="fa-brands fa-whatsapp" className="text-success fs-1 mx-5 "></i>
-          {/* <AiOutlineWhatsApp className="text-success fs-1 mx-5 " /> */}
+          {/* <i class="fa-brands fa-whatsapp" className="text-success fs-1 mx-5 "></i> */}
+          <PiWhatsappLogoBold className="text-success fs-2 mx-5 " />
           <button
             style={{
               backgroundColor: "transparent",

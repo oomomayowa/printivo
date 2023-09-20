@@ -1,7 +1,7 @@
 import React from 'react'
-import image from `../assets/Card3_n9kqin (1).png`
-// import { BiSolidCartAdd } from 'react-icons/bi'
-// import { AiOutlineSearch } from 'react-icons/ai'
+import image from '../assets/Card3_n9kqin (1).png'
+import { BiCartAlt } from 'react-icons/bi'
+import { AiOutlineSearch } from 'react-icons/ai'
 
 
 function Body() {
@@ -80,7 +80,8 @@ function Body() {
             >
               Create Account
             </button>
-            <i class="fa-solid fa-cart-arrow-down"></i>
+            <BiCartAlt/>
+            {/* <i class="fa-solid fa-cart-arrow-down"></i> */}
           </div>
         </nav>
         <div style={{ marginTop: "50px" }}>
@@ -90,7 +91,7 @@ function Body() {
               color: "rgb(43,61,73)",
               marginBottom: "-20px",
             }}
-          >
+          > 
             Quality Prints
           </h1>
           <h3
@@ -119,20 +120,20 @@ function Body() {
               border: "none",
             }}
           />
-          <i class="fa-solid fa-magnifying-glass" style={{
+          {/* <i class="fa-solid fa-magnifying-glass" style={{
               position: "absolute",
               left: "500px",
               bottom: "20%",
               width: "90px",
-            }}></i>
-          {/* <AiOutlineSearch
+            }}></i> */}
+          <AiOutlineSearch
             style={{
               position: "absolute",
               left: "500px",
               bottom: "20%",
               width: "90px",
             }}
-          /> */}
+          />
           <br />
           <button
             style={{
@@ -201,7 +202,7 @@ function Body() {
           </div>
         </div>
       </section>
-      
+      //viscio//
     </>
   )
 }

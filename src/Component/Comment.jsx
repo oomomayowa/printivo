@@ -1,9 +1,10 @@
 import React from 'react'
-import image15 from `../assets/AFFORD.svg `
-import image16 from `../assets/assets/HUND.svg `
-import image17 from `../assets/fast.svg `
+import image25 from '../assets/AFFORD.svg'
+import image26 from '../assets/HUND.svg'
+import image27 from '../assets/fast.svg'
 
-// import { AiFillTwitterCircle } from "react-icons/ai";
+
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 
 function Comment() {
@@ -26,18 +27,18 @@ function Comment() {
         <div className="card h-100">
           <div className="card-body p-5">
             <h5 className="card-title" style={{ fontSize: "16px" }}>
-            <i class="fa-brands fa-twitter" style={{
+            {/* <i class="fa-brands fa-twitter" style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
-                }}></i>
-              {/* <AiFillTwitterCircle
+                }}></i> */}
+              <AiFillTwitterCircle
                 style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}
-              /> */}
+              />
               {" "}
               Amina Ebele{" "}
               <span style={{ color: "blue" }}>@DeliciousAminae</span>
@@ -56,19 +57,19 @@ function Comment() {
         <div className="card h-100">
           <div className="card-body p-5">
             <h5 className="card-title" style={{ fontSize: "16px" }}>
-            <i class="fa-brands fa-twitter" style={{
+            {/* <i class="fa-brands fa-twitter" style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
-                }}></i>
+                }}></i> */}
               
-              {/* <AiFillTwitterCircle
+              <AiFillTwitterCircle
                 style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}
-              /> */}
+              />
               Oluwatosin <span style={{ color: "blue" }}>@tosingirlfx</span>
             </h5>
             <br />
@@ -84,19 +85,19 @@ function Comment() {
         <div className="card h-100">
           <div className="card-body p-5">
             <h5 className="card-title" style={{ fontSize: "16px" }}>
-            <i class="fa-brands fa-twitter" style={{
+            {/* <i class="fa-brands fa-twitter" style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}></i>
-              
-              {/* <AiFillTwitterCircle
+               */}
+              <AiFillTwitterCircle
                 style={{
                   color: "blue",
                   marginRight: "3%",
                   fontSize: "19px",
                 }}
-              /> */}
+              />
               Oluwatosin <span style={{ color: "blue" }}>@olgablark</span>
             </h5>
             <br />
@@ -126,7 +127,7 @@ function Comment() {
           <div className="card-body">
             <h5 className="card-title">
               {" "}
-              <img src={image15} alt="" />
+              <img src={image25} alt="" />
               Affordable Services
             </h5>
             <h6 className="card-text">
@@ -148,7 +149,7 @@ function Comment() {
           <div className="card-body">
             <h5 className="card-title">
               {" "}
-              <img src={image16} alt="" />
+              <img src={image26} alt="" />
               100% Top Quality
             </h5>
             <h6 className="card-text">
@@ -170,7 +171,7 @@ function Comment() {
           <div className="card-body">
             <h5 className="card-title">
               {" "}
-              <img src={image17} alt="" /> Fast Turnaround
+              <img src={image27} alt="" /> Fast Turnaround
               Within Days
             </h5>
             <h6 className="card-text">

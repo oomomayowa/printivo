@@ -1,5 +1,5 @@
 import React from 'react'
-import image from `../assets/bam.png `
+import image from '../assets/bam.png'
 
 function Logo() {
   return (
